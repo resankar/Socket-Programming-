@@ -238,6 +238,7 @@ public class Client {
 			System.out.print("\nError: Wrong protocol version. The version in the request is different from 1.0");
 			clientSocket.close();
 			System.exit(0);
+			
 		}
 	}//end of processResponse()
 	
